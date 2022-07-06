@@ -1,0 +1,28 @@
+.animation_container {
+  position: relative;
+}
+.animation_circle {
+  position: absolute;
+  height: 50em;
+  top: 20em;
+  right: -45em;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@media only screen and (max-width: 1023px) {
+  .animation_container {
+    display: none;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

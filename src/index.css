@@ -1,0 +1,22 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: Quicksand light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #171717;
+  color: #faf8f8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
